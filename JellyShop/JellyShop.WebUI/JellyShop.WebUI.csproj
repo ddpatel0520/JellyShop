@@ -175,6 +175,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductManagerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -338,6 +339,10 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\ProductManager\Index.cshtml" />
+    <Content Include="Views\ProductManager\Create.cshtml" />
+    <Content Include="Views\ProductManager\Edit.cshtml" />
+    <Content Include="Views\ProductManager\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -352,6 +357,24 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JellyShop.Core\JellyShop.Core.csproj">
+      <Project>{b14bd5f3-0877-4dd8-b742-a7871bf8486e}</Project>
+      <Name>JellyShop.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JellyShop.DataAccess.InMemory\JellyShop.DataAccess.InMemory.csproj">
+      <Project>{edccbad3-9698-4a87-9c24-0bba1593ebb7}</Project>
+      <Name>JellyShop.DataAccess.InMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JellyShop.DataAccess.SQL\JellyShop.DataAccess.SQL.csproj">
+      <Project>{d873728a-b268-45f3-880b-ee7f31c0f01e}</Project>
+      <Name>JellyShop.DataAccess.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JellyShop.Services\JellyShop.Services.csproj">
+      <Project>{44733418-80d0-4c8c-984c-e5428ca638db}</Project>
+      <Name>JellyShop.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
