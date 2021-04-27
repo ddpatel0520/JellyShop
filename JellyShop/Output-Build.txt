@@ -1,0 +1,11 @@
+﻿1>------ Build started: Project: JellyShop.Services, Configuration: Debug Any CPU ------
+2>------ Build started: Project: JellyShop.DataAccess.SQL, Configuration: Debug Any CPU ------
+3>------ Build started: Project: JellyShop.DataAccess.InMemory, Configuration: Debug Any CPU ------
+4>------ Build started: Project: MyConsole, Configuration: Debug Any CPU ------
+5>------ Build started: Project: JellyShop.WebUI.Tests, Configuration: Debug Any CPU ------
+1>  JellyShop.Services -> C:\Projects\Net Projects\JellyShop\JellyShop\JellyShop.Services\bin\Debug\JellyShop.Services.dll
+2>  JellyShop.DataAccess.SQL -> C:\Projects\Net Projects\JellyShop\JellyShop\JellyShop.DataAccess.SQL\bin\Debug\JellyShop.DataAccess.SQL.dll
+3>  JellyShop.DataAccess.InMemory -> C:\Projects\Net Projects\JellyShop\JellyShop\JellyShop.DataAccess.InMemory\bin\Debug\JellyShop.DataAccess.InMemory.dll
+4>  MyConsole -> C:\Projects\Net Projects\JellyShop\JellyShop\MyConsole\bin\Debug\MyConsole.exe
+5>  JellyShop.WebUI.Tests -> C:\Projects\Net Projects\JellyShop\JellyShop\JellyShop.WebUI.Tests\bin\Debug\JellyShop.WebUI.Tests.dll
+========== Build: 5 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
